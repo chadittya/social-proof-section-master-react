@@ -16,4 +16,12 @@
     background-position: top, bottom;
     font-weight: 400;
   }
+
+  @media (min-width: 640px) {
+    body {
+      background-image: url(../assets/images/bg-pattern-top-desktop.svg),
+        url(../assets/images/bg-pattern-bottom-desktop.svg);
+      background-position: top left, bottom right;
+    }
+  }
 }
