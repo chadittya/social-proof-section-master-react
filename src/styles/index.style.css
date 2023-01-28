@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+  }
+  body {
+    background-image: url(../assets/images/bg-pattern-top-mobile.svg),
+      url(../assets/images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    font-weight: 400;
+  }
+}
